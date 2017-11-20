@@ -12,6 +12,7 @@ public class Sample {
 	@Test
 	public void test2() {
 		System.out.println("not specified");
+		System.out.println("My First Change");
 	}
 
 }
