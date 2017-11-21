@@ -16,8 +16,9 @@ public class Sample {
 		driver.get("https://www.google.co.in");
 
 		String actualResult = driver.getTitle();
-
+		System.out.println("Before assert statement");
 		Assert.assertEquals(actualResult, expectedResult, "Error in page title");
+		System.out.println("End of program");
 	}
 
 }
