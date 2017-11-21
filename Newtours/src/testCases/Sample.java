@@ -12,6 +12,7 @@ public class Sample {
 		System.out.println("hellooooooooo");
 		String expectedResult = "Google";
 		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
 		driver.get("https://www.google.co.in");
 
 		String actualResult = driver.getTitle();
